@@ -16,7 +16,7 @@ var Application = {
     ,
     initShowMhs: function () {
         $.ajax({
-            url: 'http://masazka.com/serviceppk/web_service.php',
+            url: 'http://192.168.43.208/serviceppk/web_service.php',
             type: 'get',
             beforeSend: function () {
                 $.mobile.loading('show', {
@@ -42,7 +42,7 @@ var Application = {
     },
     initShowDetailsMhs: function (nim) {
         $.ajax({
-            url: 'http://masazka.com/serviceppk/web_service.php',
+            url: 'http://192.168.43.208/serviceppk/web_service.php',
             type: 'get',
             beforeSend: function () {
                 $.mobile.loading('show', {
